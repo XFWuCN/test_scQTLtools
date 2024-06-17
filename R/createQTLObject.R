@@ -47,7 +47,7 @@ setClass(
 #' This method is used to display information about an object of class eQTLObject.
 #' When called on an eQTLObject, it prints a descriptive message to the console.
 #'
-#' @param eQTLObject An object of class eQTLObject.
+#' @param eQTLObject An S4 object of class eQTLObject.
 #'
 #' @export
 #'
@@ -92,7 +92,7 @@ setMethod(
 )
 
 
-#' Create the eQTLObject.
+#' createObject:Create the eQTLObject.
 #' We next create a S4 object. The object serves as a container that contains
 #' both data (like the count matrix) and meta.data.
 #'
